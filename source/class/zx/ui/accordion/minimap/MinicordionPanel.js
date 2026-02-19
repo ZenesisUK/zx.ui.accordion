@@ -138,7 +138,7 @@ qx.Class.define("zx.ui.accordion.minimap.MinicordionPanel", {
           control.setToolTip(this.getChildControl("tooltip"));
           break;
         case "content":
-          control = new zx.ui.SkeletonText(
+          control = new zx.ui.accordion.SkeletonText(
             Math.trunc(
               (this.getPanel().getChildControl("content").getSizeHint().height *
                 this.getScaleFactor()) /
