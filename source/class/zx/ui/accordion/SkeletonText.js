@@ -12,7 +12,7 @@
  * Generates controlled or randomised paragraph outlines for use as skeleton
  * text.
  */
-qx.Class.define("zx.ui.SkeletonText", {
+qx.Class.define("zx.ui.accordion.SkeletonText", {
   extend: qx.ui.core.Widget,
 
   /**

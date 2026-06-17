@@ -165,13 +165,13 @@ qx.Theme.define("zx.ui.accordion.theme.MAppearance", {
     },
 
     /**
-     * applied to {@link zx.ui.SkeletonText} instances used in the
+     * applied to {@link zx.ui.accordion.SkeletonText} instances used in the
      * {@link zx.ui.Accordion.minimap.Minicordion}.
      */
     "accordion-minimap-skeleton-text": {},
 
     /**
-     * applied to lines of {@link zx.ui.SkeletonText} instances used in the
+     * applied to lines of {@link zx.ui.accordion.SkeletonText} instances used in the
      * {@link zx.ui.Accordion.minimap.Minicordion}.
      */
     "accordion-minimap-skeleton-text-line": {
