@@ -23,8 +23,8 @@
   },
   "applications": [
     {
-      "class": "zx.demo.Application",
-      "theme": "zx.demo.theme.tangible.Theme",
+      "class": "zx.demo.accordian.Application",
+      "theme": "zx.demo.accordian.theme.tangible.Theme",
       "name": "zx"
     }
   ]

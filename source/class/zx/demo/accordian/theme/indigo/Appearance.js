@@ -8,7 +8,7 @@
 
 ************************************************************************ */
 
-qx.Theme.define("zx.demo.theme.tangible.Font", {
-  extend: qx.theme.tangible.Font,
-  include: [zx.ui.accordion.theme.MFont]
+qx.Theme.define("zx.demo.accordian.theme.indigo.Appearance", {
+  extend: qx.theme.indigo.Appearance,
+  include: [zx.ui.accordion.theme.MAppearance]
 });

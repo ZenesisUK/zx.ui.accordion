@@ -8,7 +8,7 @@
 
 ************************************************************************ */
 
-qx.Theme.define("zx.demo.theme.simple.Font", {
-  extend: qx.theme.simple.Font,
+qx.Theme.define("zx.demo.accordian.theme.indigo.Font", {
+  extend: qx.theme.indigo.Font,
   include: [zx.ui.accordion.theme.MFont]
 });

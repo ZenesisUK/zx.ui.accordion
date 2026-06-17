@@ -8,12 +8,12 @@
 
 ************************************************************************ */
 
-qx.Theme.define("zx.demo.theme.indigo.Theme", {
+qx.Theme.define("zx.demo.accordian.theme.indigo.Theme", {
   meta: {
-    color: zx.demo.theme.indigo.Color,
-    decoration: zx.demo.theme.indigo.Decoration,
-    font: zx.demo.theme.indigo.Font,
+    color: zx.demo.accordian.theme.indigo.Color,
+    decoration: zx.demo.accordian.theme.indigo.Decoration,
+    font: zx.demo.accordian.theme.indigo.Font,
     icon: qx.theme.icon.Tango,
-    appearance: zx.demo.theme.indigo.Appearance
+    appearance: zx.demo.accordian.theme.indigo.Appearance
   }
 });

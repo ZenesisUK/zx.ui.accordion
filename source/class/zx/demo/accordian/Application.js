@@ -11,7 +11,7 @@
 /**
  * This is the main application class of "zx"
  */
-qx.Class.define("zx.demo.Application", {
+qx.Class.define("zx.demo.accordian.Application", {
   extend: qx.application.Standalone,
 
   /*
@@ -79,7 +79,7 @@ qx.Class.define("zx.demo.Application", {
         if (act === "kill" || act === "k") {
           if (who === "all" || who === "a")
             return panels.forEach(panel => (accordion.remove(panel), panel.destroy()));
-          return accordion.remove(panels[+who]), panels[+who].destroy(), panels.splice(+who, 1);
+          return (accordion.remove(panels[+who]), panels[+who].destroy(), panels.splice(+who, 1));
         }
 
         console.log("Usage:", "[hide|show|open|close|h|s|o|c] [all|a|<page-no>]");

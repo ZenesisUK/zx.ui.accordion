@@ -8,7 +8,7 @@
 
 ************************************************************************ */
 
-qx.Theme.define("zx.demo.theme.tangible.Decoration", {
-  extend: qx.theme.tangible.Decoration,
-  include: [zx.ui.accordion.theme.tangible.MDecoration]
+qx.Theme.define("zx.demo.accordian.theme.simple.Decoration", {
+  extend: qx.theme.simple.Decoration,
+  include: [zx.ui.accordion.theme.MDecoration]
 });
